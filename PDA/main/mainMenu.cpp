@@ -8,17 +8,18 @@ void menu() {
 	Rectangle button = { (screenWidth / 2) - 310, (screenHeight / 2) - 55, 630, 90 };
 
 	InitWindow(screenWidth, screenHeight, "Planet Dawn");
+	ToggleBorderlessWindowed();
 	SetTargetFPS(60);
 
-	Texture2D resizedBackground;
-	Image bg = LoadImage("../assets/background.png");
-	ImageResize(&bg,GetScreenWidth(), GetScreenHeight());
-	resizedBackground = LoadTextureFromImage(bg);
+	Texture2D resizedmainMenu;
+	Image mainMenu = LoadImage("../assets/mainMenu.png");
+	ImageResize(&mainMenu,GetScreenWidth(), GetScreenHeight());
+	resizedmainMenu = LoadTextureFromImage(mainMenu);
 
 	while (!WindowShouldClose()) {
 		BeginDrawing();
 
-		DrawTexture(resizedBackground, 0, 0, WHITE);
+		DrawTexture(resizedmainMenu, 0, 0, WHITE);
 
 		Vector2 mousePosition = GetMousePosition();
 		bool isMouseOverButton = CheckCollisionPointRec(mousePosition, button);
@@ -32,8 +33,8 @@ void menu() {
 
 		EndDrawing();
 	}
-	UnloadImage(bg);
-	UnloadTexture(resizedBackground);
+	UnloadImage(mainMenu);
+	UnloadTexture(resizedmainMenu);
 	CloseWindow();
 }
 
