@@ -9,21 +9,20 @@ void planetsMenu() {
     const int spaceBetweenPlanets = 20;
     const int textSize = 20;
 
-    Planet planets[planetsCount] = {
-        {"Mercury", LoadTexture("#"), {margin, 100, buttonWidth, buttonHeight}},
-        {"Venus", LoadTexture("#"), {margin, 160, buttonWidth, buttonHeight}},
-        {"Earth", LoadTexture("#"), {margin, 220, buttonWidth, buttonHeight}},
-        {"Mars", LoadTexture("#"), {margin, 280, buttonWidth, buttonHeight}},
-        {"Jupiter", LoadTexture("#"), {margin, 340, buttonWidth, buttonHeight}},
-        {"Saturn", LoadTexture("#"), {margin, 400, buttonWidth, buttonHeight}},
-        {"Uranus", LoadTexture("#"), {margin, 460, buttonWidth, buttonHeight}},
-        {"Neptune", LoadTexture("#"), {margin, 520, buttonWidth, buttonHeight}}
-    };
 
-    int startY = 100;
-    for (int i = 0; i < planetsCount; ++i) {
-        planets[i].exploreButton.y = startY + (float)(i * (textSize + buttonHeight + spaceBetweenPlanets + margin));
-    }
+    const int newPositionX[planetsCount] = { 370, 960, 1560, 370, 960, 1560, 690, 1270 };
+    const int newPositionY[planetsCount] = { 340, 340, 340, 610, 610, 610, 870, 870 };
+
+    Planet planets[planetsCount] = {
+       {LoadTexture("#"), {newPositionX[0], newPositionY[0], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[1], newPositionY[1], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[2], newPositionY[2], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[3], newPositionY[3], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[4], newPositionY[4], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[5], newPositionY[5], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[6], newPositionY[6], buttonWidth, buttonHeight}},
+       {LoadTexture("#"), {newPositionX[7], newPositionY[7], buttonWidth, buttonHeight}}
+    };
 
     Texture2D resizedplanetsMenu;
     Image planetsMenu = LoadImage("../assets/planetsMenu.png");
@@ -32,14 +31,10 @@ void planetsMenu() {
 
     while (!WindowShouldClose()) {
         BeginDrawing();
-
         DrawTexture(resizedplanetsMenu, 0, 0, WHITE);
 
+
         for (int i = 0; i < planetsCount; ++i) {
-            Vector2 textDimensions = MeasureTextEx(GetFontDefault(), planets[i].name.c_str(), textSize, 1);
-            int textX = margin;
-            int textY = (int)planets[i].exploreButton.y - (int)textDimensions.y - margin;
-            DrawText(planets[i].name.c_str(), textX, textY, textSize, WHITE);
 
             DrawRectangleRec(planets[i].exploreButton, CheckCollisionPointRec(GetMousePosition(), planets[i].exploreButton) ? LIGHTGRAY : WHITE);
             DrawText("Explore Planet", (int)planets[i].exploreButton.x + 20, (int)planets[i].exploreButton.y + 15, 20, BLACK);

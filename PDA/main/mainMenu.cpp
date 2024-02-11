@@ -8,8 +8,8 @@ void menu() {
 	Rectangle button = { (screenWidth / 2) - 310, (screenHeight / 2) - 55, 630, 90 };
 
 	InitWindow(screenWidth, screenHeight, "Planet Dawn");
-	ToggleBorderlessWindowed();
 	SetTargetFPS(60);
+	ToggleBorderlessWindowed();
 
 	Texture2D resizedmainMenu;
 	Image mainMenu = LoadImage("../assets/mainMenu.png");
