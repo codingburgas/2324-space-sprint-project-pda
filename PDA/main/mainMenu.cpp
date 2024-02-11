@@ -13,7 +13,7 @@ void menu() {
 
 	Texture2D resizedmainMenu;
 	Image mainMenu = LoadImage("../assets/mainMenu.png");
-	ImageResize(&mainMenu,GetScreenWidth(), GetScreenHeight());
+	ImageResize(&mainMenu, GetScreenWidth(), GetScreenHeight());
 	resizedmainMenu = LoadTextureFromImage(mainMenu);
 
 	while (!WindowShouldClose()) {
@@ -29,7 +29,7 @@ void menu() {
 			planetsMenu();
 		}
 		DrawText("Planet Dawn", (screenWidth / 2) - 300, screenHeight - 800, 100, WHITE);
-		DrawRectangle((screenWidth / 2) - 310, (screenHeight / 2) - 129, 630,9, WHITE);
+		DrawRectangle((screenWidth / 2) - 310, (screenHeight / 2) - 129, 630, 9, WHITE);
 
 		EndDrawing();
 	}
@@ -37,5 +37,4 @@ void menu() {
 	UnloadTexture(resizedmainMenu);
 	CloseWindow();
 }
-
 

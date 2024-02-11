@@ -65,6 +65,15 @@ void planetsMenu() {
             neptune();
         }
 
+        DrawText("Mercury", 382, 270, 40, WHITE);
+        DrawText("Venus", 992, 270, 40, WHITE);
+        DrawText("Earth", 1602, 270, 40, WHITE);
+        DrawText("Mars", 416, 540, 40, WHITE);
+        DrawText("Jupiter", 990, 540, 40, WHITE);
+        DrawText("Saturn", 1590, 540, 40, WHITE);
+        DrawText("Uranus", 718, 800, 40, WHITE);
+        DrawText("Neptune", 1290, 800, 40, WHITE);
+
         EndDrawing();
     }
 
