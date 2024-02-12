@@ -39,7 +39,6 @@ void planetsMenu() {
             DrawRectangleRec(planets[i].exploreButton, CheckCollisionPointRec(GetMousePosition(), planets[i].exploreButton) ? LIGHTGRAY : WHITE);
             DrawText("Explore Planet", (int)planets[i].exploreButton.x + 20, (int)planets[i].exploreButton.y + 15, 20, BLACK);
         }
-
         if (CheckCollisionPointRec(GetMousePosition(), planets[0].exploreButton) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             mercury();
         }
@@ -64,7 +63,6 @@ void planetsMenu() {
         if (CheckCollisionPointRec(GetMousePosition(), planets[7].exploreButton) && IsMouseButtonPressed(MOUSE_LEFT_BUTTON)) {
             neptune();
         }
-
         DrawText("Mercury", 382, 270, 40, WHITE);
         DrawText("Venus", 992, 270, 40, WHITE);
         DrawText("Earth", 1602, 270, 40, WHITE);

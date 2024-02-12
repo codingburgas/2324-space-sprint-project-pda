@@ -5,93 +5,142 @@ void mercury() {
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e mercury", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void venus() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e venus", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void earth() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e earth", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void mars() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e mars", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void jupiter() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e jupiter", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void saturn() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
+
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e saturn", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void uranus() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e uranus", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
 void neptune() {
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    Texture2D resizedplanets;
+    Image planets = LoadImage("../assets/planets.png");
+    ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
+    resizedplanets = LoadTextureFromImage(planets);
+
     while (!WindowShouldClose()) {
         BeginDrawing();
-        DrawRectangle(0, 0, screenWidth, screenHeight, WHITE);
-        DrawText("tova e neptune", 50, 50, 100, GREEN);
+        DrawTexture(resizedplanets, 0, 0, WHITE);
         EndDrawing();
     }
+    UnloadImage(planets);
+    UnloadTexture(resizedplanets);
 }
