@@ -19,6 +19,7 @@ void mercury() {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
         DrawTexture(resizedMercury, 120, 225, WHITE);
+        DrawText("Mercury", 1160, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -38,13 +39,14 @@ void venus() {
 
     Texture2D resizedVenus;
     Image Venus = LoadImage("../assets/Venus.png");
-    ImageResize(&Venus, 900, 705);
+    ImageResize(&Venus, 987, 750);
     resizedVenus = LoadTextureFromImage(Venus);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
-        DrawTexture(resizedVenus, 120, 225, WHITE);
+        DrawTexture(resizedVenus, 75, 196, WHITE);
+        DrawText("Venus", 1210, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -64,13 +66,14 @@ void earth() {
 
     Texture2D resizedEarth;
     Image Earth = LoadImage("../assets/Earth.png");
-    ImageResize(&Earth, 900, 705);
+    ImageResize(&Earth, 1000, 730);
     resizedEarth = LoadTextureFromImage(Earth);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
-        DrawTexture(resizedEarth, 120, 225, WHITE);
+        DrawTexture(resizedEarth, 50, 198, WHITE);
+        DrawText("Earth", 1230, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -97,6 +100,7 @@ void mars() {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
         DrawTexture(resizedMars, 120, 225, WHITE);
+        DrawText("Mars", 1240, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -115,13 +119,14 @@ void mars() {
 
         Texture2D resizedJupiter;
         Image Jupiter = LoadImage("../assets/Jupiter.png");
-        ImageResize(&Jupiter, 900, 705);
+        ImageResize(&Jupiter, 900, 690);
         resizedJupiter = LoadTextureFromImage(Jupiter);
 
         while (!WindowShouldClose()) {
             BeginDrawing();
             DrawTexture(resizedplanets, 0, 0, WHITE);
             DrawTexture(resizedJupiter, 120, 225, WHITE);
+            DrawText("Jupiter", 1200, 220, 70, WHITE);
             EndDrawing();
         }
         UnloadImage(planets);
@@ -142,13 +147,14 @@ void saturn() {
 
     Texture2D resizedSaturn;
     Image Saturn = LoadImage("../assets/Saturn.png");
-    ImageResize(&Saturn, 900, 705);
+    ImageResize(&Saturn, 900, 610);
     resizedSaturn = LoadTextureFromImage(Saturn);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
-        DrawTexture(resizedSaturn, 120, 225, WHITE);
+        DrawTexture(resizedSaturn, 120, 230, WHITE);
+        DrawText("Saturn", 1240, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -168,13 +174,14 @@ void uranus() {
 
     Texture2D resizedUranus;
     Image Uranus = LoadImage("../assets/Uranus.png");
-    ImageResize(&Uranus, 900, 705);
+    ImageResize(&Uranus, 750, 680);
     resizedUranus = LoadTextureFromImage(Uranus);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
-        DrawTexture(resizedUranus, 120, 225, WHITE);
+        DrawTexture(resizedUranus, 160, 245, WHITE);
+        DrawText("Uranus", 1200, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
@@ -194,13 +201,14 @@ void neptune() {
 
     Texture2D resizedNeptune;
     Image Neptune = LoadImage("../assets/Neptune.png");
-    ImageResize(&Neptune, 900, 705);
+    ImageResize(&Neptune, 900, 675);
     resizedNeptune = LoadTextureFromImage(Neptune);
 
     while (!WindowShouldClose()) {
         BeginDrawing();
         DrawTexture(resizedplanets, 0, 0, WHITE);
-        DrawTexture(resizedNeptune, 120, 225, WHITE);
+        DrawTexture(resizedNeptune, 120, 270, WHITE);
+        DrawText("Neptune", 1190, 220, 70, WHITE);
         EndDrawing();
     }
     UnloadImage(planets);
