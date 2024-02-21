@@ -1,33 +1,42 @@
-#include"planets.h"
+#include"planets.h" // Include the header file for function declarations and definitions.
 
+// Function to display Mercury.
 void mercury() {
 
+    // Get screen width and height.
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
 
+    // Load and resize the texture for the background image.
     Texture2D resizedplanets;
     Image planets = LoadImage("../assets/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
+    // Load and resize the texture for Mercury.
     Texture2D resizedMercury;
     Image Mercury = LoadImage("../assets/Mercury.png");
     ImageResize(&Mercury, 900, 705);
     resizedMercury = LoadTextureFromImage(Mercury);
 
+    // Main loop for displaying Mercury.
     while (!WindowShouldClose()) {
         BeginDrawing();
+        // Draw the background and Mercury textures along with text.
         DrawTexture(resizedplanets, 0, 0, WHITE);
         DrawTexture(resizedMercury, 120, 225, WHITE);
         DrawText("Mercury", 1160, 220, 70, WHITE);
         EndDrawing();
     }
+    // Unload images and textures to free memory.
     UnloadImage(planets);
     UnloadImage(Mercury);
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedMercury);
 }
+// Function to display Venus.
 void venus() {
+    // Same structure as the mercury function, with adjustments for Venus.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -54,7 +63,9 @@ void venus() {
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedVenus);
 }
+// Function to display Earth.
 void earth() {
+    // Same structure as the mercury function, with adjustments for Earth.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -81,7 +92,9 @@ void earth() {
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedEarth);
 }
+// Function to display Mars.
 void mars() {
+    // Same structure as the mercury function, with adjustments for Mars.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -108,7 +121,9 @@ void mars() {
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedMars);
 }
+// Function to display Jupiter.
     void jupiter() {
+        // Same structure as the mercury function, with adjustments for Jupiter.
         const int screenWidth = GetScreenWidth();
         const int screenHeight = GetScreenHeight();
 
@@ -135,7 +150,9 @@ void mars() {
         UnloadTexture(resizedJupiter);
         
     }
+    // Function to display Saturn.
 void saturn() {
+    // Same structure as the mercury function, with adjustments for Saturn.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -162,7 +179,9 @@ void saturn() {
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedSaturn);
 }
+// Function to display Uranus.
 void uranus() {
+    // Same structure as the mercury function, with adjustments for Uranus.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -189,7 +208,9 @@ void uranus() {
     UnloadTexture(resizedplanets);
     UnloadTexture(resizedUranus);
 }
+// Function to display Neptune.
 void neptune() {
+    // Same structure as the mercury function, with adjustments for Neptune .
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
