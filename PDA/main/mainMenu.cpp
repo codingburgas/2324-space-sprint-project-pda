@@ -12,6 +12,7 @@ void menu() {
     // Initialize the window and set target FPS.
     InitWindow(screenWidth, screenHeight, "Planet Dawn");
     SetTargetFPS(60);
+    ToggleFullscreen(); // Toggle the screen to full screen
 
     // Load and resize the texture for the main menu.
     Texture2D resizedmainMenu;
