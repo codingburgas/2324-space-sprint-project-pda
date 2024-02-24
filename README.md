@@ -3,7 +3,7 @@
     <img src="https://cdn.discordapp.com/attachments/1055947987609718855/1210939053017669632/PDA.png?ex=65ec61e0&is=65d9ece0&hm=a6afce37568211bebe83c2814da6c77f4b6f273b57cf4145cb2f8d3304da4cf1&" alt="Logo" width="570" height="420">
 </p>
 
-   <h4 align="center">We are Planet Cawn and we want to show you our projext</h4>
+   <h4 align="center">We are Planet Dawn and we want to show you our project</h4>
     
 
     
@@ -34,9 +34,9 @@
 <h2 id="about-the-project">About The Project</h2>
     
 <p align="justify">
-    NexGenBank is a collaborative project developed by a passionate team of software engineers and financial experts. Our mission is to revolutionize the banking experience by leveraging the latest technologies to provide secure, efficient, and user-friendly financial services.
+    PlanetDawn is an ambitious project crafted by a team of dedicated astronomers and tech enthusiasts. Our aim is to redefine the way people engage with the cosmos through immersive experiences and cutting-edge technology. With PlanetDawn, users embark on an exhilarating journey to explore the mysteries of the universe, offering captivating insights and breathtaking views of distant worlds.
 </p>
-<p> - The NexGenBank Team ❤️</p>
+<p> - Planet Dawn team ❤️</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -48,9 +48,10 @@
     
 |                                                                        |              
 | :-------------------------------------------------------------------: | 
-| Main Menu![image](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/03e050c7-d902-414a-9147-2a63cb7298f3)
- | Planets Menu ![image](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/d6b9ab76-d007-4bdc-b8ff-19e5f4302f0d)
- | Earth's Menu ![image](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/dc802771-0306-477c-986d-9d25c4661255)
+| Main Menu ![mainMenu](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/6c9136da-c267-4210-9a68-a89034eb0866)
+| Planets Menu ![planetsMenu](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/754339f6-23fa-4fab-8787-0f3e5031bd7e)
+| Earth's Menu ![earth](https://github.com/codingburgas/2324-space-sprint-project-pda/assets/132439820/f1145f0f-9c57-46de-82d0-d088766cb9f7)
+
 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
                              
@@ -114,7 +115,7 @@
 
 <h3 align="center"> Thank you and enjoy our app! <h3>
 <h4 align="center"> Made with ❤️</h4>
-<h4 align="center"> Created by team Planet Dawn | &copy 2023 All rights reserved.</h4>
+<h4 align="center"> Created by team Planet Dawn | &copy 2024 All rights reserved.</h4>
 <h1 align="center">Thanks for checking out our repo, show us some ❤️ by giving our repo a ⭐️!</h1>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
