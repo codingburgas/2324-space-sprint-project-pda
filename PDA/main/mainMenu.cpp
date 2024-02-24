@@ -12,7 +12,6 @@ void menu() {
     // Initialize the window and set target FPS.
     InitWindow(screenWidth, screenHeight, "Planet Dawn");
     SetTargetFPS(60);
-    ToggleBorderlessWindowed(); // Toggle window to borderless mode.
 
     // Load and resize the texture for the main menu.
     Texture2D resizedmainMenu;
