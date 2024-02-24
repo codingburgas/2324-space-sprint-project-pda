@@ -16,7 +16,7 @@ void menu() {
 
     // Load and resize the texture for the main menu.
     Texture2D resizedmainMenu;
-    Image mainMenu = LoadImage("../assets/mainMenu.png");
+    Image mainMenu = LoadImage("../assets/backgrounds/mainMenu.png");
     ImageResize(&mainMenu, GetScreenWidth(), GetScreenHeight());
     resizedmainMenu = LoadTextureFromImage(mainMenu);
 

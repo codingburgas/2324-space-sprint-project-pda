@@ -9,13 +9,13 @@ void mercury() {
 
     // Load and resize the texture for the background image.
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     // Load and resize the texture for Mercury.
     Texture2D resizedMercury;
-    Image Mercury = LoadImage("../assets/Mercury.png");
+    Image Mercury = LoadImage("../assets/planets/Mercury.png");
     ImageResize(&Mercury, 900, 705);
     resizedMercury = LoadTextureFromImage(Mercury);
 
@@ -51,12 +51,12 @@ void venus() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedVenus;
-    Image Venus = LoadImage("../assets/Venus.png");
+    Image Venus = LoadImage("../assets/planets/Venus.png");
     ImageResize(&Venus, 987, 750);
     resizedVenus = LoadTextureFromImage(Venus);
 
@@ -89,12 +89,12 @@ void earth() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedEarth;
-    Image Earth = LoadImage("../assets/Earth.png");
+    Image Earth = LoadImage("../assets/planets/Earth.png");
     ImageResize(&Earth, 1000, 730);
     resizedEarth = LoadTextureFromImage(Earth);
 
@@ -127,12 +127,12 @@ void mars() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedMars;
-    Image Mars = LoadImage("../assets/Mars.png");
+    Image Mars = LoadImage("../assets/planets/Mars.png");
     ImageResize(&Mars, 900, 705);
     resizedMars = LoadTextureFromImage(Mars);
 
@@ -164,12 +164,12 @@ void mars() {
         const int screenHeight = GetScreenHeight();
 
         Texture2D resizedplanets;
-        Image planets = LoadImage("../assets/planets.png");
+        Image planets = LoadImage("../assets/backgrounds/planets.png");
         ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
         resizedplanets = LoadTextureFromImage(planets);
 
         Texture2D resizedJupiter;
-        Image Jupiter = LoadImage("../assets/Jupiter.png");
+        Image Jupiter = LoadImage("../assets/planets/Jupiter.png");
         ImageResize(&Jupiter, 900, 690);
         resizedJupiter = LoadTextureFromImage(Jupiter);
 
@@ -203,12 +203,12 @@ void saturn() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedSaturn;
-    Image Saturn = LoadImage("../assets/Saturn.png");
+    Image Saturn = LoadImage("../assets/planets/Saturn.png");
     ImageResize(&Saturn, 900, 610);
     resizedSaturn = LoadTextureFromImage(Saturn);
 
@@ -241,12 +241,12 @@ void uranus() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedUranus;
-    Image Uranus = LoadImage("../assets/Uranus.png");
+    Image Uranus = LoadImage("../assets/planets/Uranus.png");
     ImageResize(&Uranus, 750, 680);
     resizedUranus = LoadTextureFromImage(Uranus);
 
@@ -278,12 +278,12 @@ void neptune() {
     const int screenHeight = GetScreenHeight();
 
     Texture2D resizedplanets;
-    Image planets = LoadImage("../assets/planets.png");
+    Image planets = LoadImage("../assets/backgrounds/planets.png");
     ImageResize(&planets, GetScreenWidth(), GetScreenHeight());
     resizedplanets = LoadTextureFromImage(planets);
 
     Texture2D resizedNeptune;
-    Image Neptune = LoadImage("../assets/Neptune.png");
+    Image Neptune = LoadImage("../assets/planets/Neptune.png");
     ImageResize(&Neptune, 900, 675);
     resizedNeptune = LoadTextureFromImage(Neptune);
 

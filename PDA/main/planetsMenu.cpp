@@ -28,7 +28,7 @@ void planetsMenu() {
 
     // Load and resize the texture for the planets menu background.
     Texture2D resizedplanetsMenu;
-    Image planetsMenu = LoadImage("../assets/planetsMenu.png");
+    Image planetsMenu = LoadImage("../assets/backgrounds/planetsMenu.png");
     ImageResize(&planetsMenu, GetScreenWidth(), GetScreenHeight());
     resizedplanetsMenu = LoadTextureFromImage(planetsMenu);
 
