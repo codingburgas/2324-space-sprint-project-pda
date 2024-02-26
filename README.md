@@ -3,7 +3,7 @@
     <img src="https://cdn.discordapp.com/attachments/1055947987609718855/1210939053017669632/PDA.png?ex=65ec61e0&is=65d9ece0&hm=a6afce37568211bebe83c2814da6c77f4b6f273b57cf4145cb2f8d3304da4cf1&" alt="Logo" width="570" height="420">
 </p>
 
-   <h4 align="center">We are Planet Dawn and we want to show you our project</h4>
+   <h4 align="center">We are Planet Dawn and we want to show you our project.</h4>
     
 
     
@@ -24,8 +24,8 @@
 <details open="open">
     <summary>Table of Contents</summary>
     <li><a>  The Project </a></li>
-    <li><a>   Contributors </a></li>
-    <li><a>   Installation</a></li>
+    <li><a>  Used technologies </a></li>
+    <li><a>  Contributors </a></li>
 </details>
 
  ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -34,15 +34,15 @@
 <h2 id="about-the-project">About The Project</h2>
     
 <p align="justify">
-    PlanetDawn is an ambitious project crafted by a team of dedicated astronomers and tech enthusiasts. Our aim is to redefine the way people engage with the cosmos through immersive experiences and cutting-edge technology. With PlanetDawn, users embark on an exhilarating journey to explore the mysteries of the universe, offering captivating insights and breathtaking views of distant worlds.
+    PlanetDawn is an ambitious project, crafted by a team of dedicated astronomers and tech enthusiasts. Our aim is to redefine the way people engage with the cosmos through immersive experiences and cutting-edge technology. With PlanetDawn, users embark on an exhilarating journey to explore the mysteries of the universe, offering captivating insights and breathtaking views of distant worlds.
 </p>
 <p> - Planet Dawn team ❤️</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<summary>Screenshots</summary>
+<summary>Screenshots of our work</summary>
 <details>
-<summary>Show</summary>
+<summary>Show ⬇️</summary>
 <br>
     
     
@@ -78,10 +78,11 @@
 
 <ol>
     <li>
-        <strong>Dimitar Kostadinov</strong>
+        <strong>Dimitar Kostadinov </strong>
         <ul>
             <li>Role: Scrum Trainer</li>
             <li>GitHub: <a href="https://github.com/DKKostadinov22">DKKostadinov22</a></li>
+             <li>Grade: 9A 🟨 </li>
         </ul>
     </li>
     
@@ -90,6 +91,7 @@
 <ul>
             <li>Role: Back-end Developer</li>
             <li>GitHub: <a href="https://github.com/AAVezirova22">AAVezirova22</a></li>
+             <li>Grade: 9G 🟦</li>
 </ul>
 </li>
 
@@ -98,6 +100,7 @@
 <ul>
             <li>Role: Back-end Developer</li>
             <li>GitHub: <a href="https://github.com/DYkartalova22">DYkartalova</a></li>
+             <li>Grade: 9G 🟦</li>
 </ul>
 </li>
         
@@ -106,6 +109,7 @@
 <ul>
             <li>Role: Back-end Developer</li>
             <li>GitHub: <a href="https://github.com/PRPetkov22">PRPetkov22</a></li>
+            <li>Grade: 9A 🟨</li>
 </ul>
 </li>
     
