@@ -1,5 +1,5 @@
-#include "mainMenu.h" // Include the header file for function declarations and definitions related to the main menu.
-#include "planetsMenu.h" // Include the header file for function declarations and definitions related to the planets menu.
+#include "mainMenu.h"
+#include "planetsMenu.h"
 
 void menu() {
     // Define screen dimensions.

@@ -1,7 +1,7 @@
-#pragma once // Include guard to ensure this header file is included only once during compilation.
+#pragma once
 
-#include <string> // Include necessary header for std::string.
-#include "raylib.h" // Include the Raylib library.
+#include <string>
+#include "raylib.h"
 
 // Structure to represent a planet, containing its texture and explore button position.
 struct Planet {

@@ -1,5 +1,5 @@
-#include "planetsMenu.h" // Include the header file for function declarations and definitions.
-#include "planets.h" // Include the header file for planet exploration functions.
+#include "planetsMenu.h"
+#include "planets.h"
 
 void planetsMenu() {
     // Constants defining the layout and appearance of the planets menu.

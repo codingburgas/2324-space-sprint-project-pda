@@ -1,5 +1,5 @@
-#pragma once // Include guard to ensure this header file is included only once during compilation.
-#include "raylib.h" // Include the Raylib library.
+#pragma once
+#include "raylib.h"
 
 // Function declaration for the menu function.
 void menu();

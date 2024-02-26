@@ -1,4 +1,4 @@
-#include"planets.h" // Include the header file for function declarations and definitions.
+#include"planets.h"
 
 // Function to display Mercury.
 void mercury() {
@@ -45,7 +45,6 @@ void mercury() {
 }
 // Function to display Venus.
 void venus() {
-    // Same structure as the mercury function, with adjustments for Venus.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -83,7 +82,6 @@ void venus() {
 }
 // Function to display Earth.
 void earth() {
-    // Same structure as the mercury function, with adjustments for Earth.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -121,7 +119,6 @@ void earth() {
 }
 // Function to display Mars.
 void mars() {
-    // Same structure as the mercury function, with adjustments for Mars.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -159,7 +156,7 @@ void mars() {
 }
 // Function to display Jupiter.
     void jupiter() {
-        // Same structure as the mercury function, with adjustments for Jupiter.
+
         const int screenWidth = GetScreenWidth();
         const int screenHeight = GetScreenHeight();
 
@@ -197,7 +194,6 @@ void mars() {
     }
     // Function to display Saturn.
 void saturn() {
-    // Same structure as the mercury function, with adjustments for Saturn.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -235,7 +231,6 @@ void saturn() {
 }
 // Function to display Uranus.
 void uranus() {
-    // Same structure as the mercury function, with adjustments for Uranus.
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();
@@ -272,7 +267,6 @@ void uranus() {
 }
 // Function to display Neptune.
 void neptune() {
-    // Same structure as the mercury function, with adjustments for Neptune .
 
     const int screenWidth = GetScreenWidth();
     const int screenHeight = GetScreenHeight();

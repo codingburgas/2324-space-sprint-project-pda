@@ -1,8 +1,8 @@
-﻿#include"mainMenu.h" // Include the header file for the main menu function.
+﻿#include"mainMenu.h"
 
 int main()
 {
-	menu(); // Call the main menu function.
+	menu();
 	return 0;
 }
 
