@@ -68,12 +68,11 @@
 - <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Microsoft_PowerPoint_Logo.png" width="20" alt="MS PowerPoint Logo"> <a href="https://bg.wikipedia.org/wiki/Microsoft_PowerPoint">MS PowerPoint</a>
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/2203px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png" width="20" alt="MS Teams Logo"> <a href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software">MS Teams</a>
 -----------------------------------------------------------------------------------------------------------------------------------
-- 👩🏻‍💻 Programing languages:
-  
-<a href="https://en.m.wikipedia.org/wiki/C%2B%2B"><img src="https://cdn.discordapp.com/attachments/1055947987609718855/1210938600544542720/306px-ISO_C2B2B_Logo.png?ex=65ec6174&is=65d9ec74&hm=7ba8bcbfea81c4669ca03d50140ec07e0e1c7224de115d1af73a7437751359f1&" width="30" alt="html Logo"></a>  
+
+- 👩🏻‍💻 Programing languages: <img src="https://brandslogos.com/wp-content/uploads/thumbs/c-logo-vector.svg" width="20" alt="C++ Logo"> <a href="https://cplusplus.com/">C++</a>
+- 🗃️ Graphics Libraries: <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raylib_logo.png" width="20" alt="Raylib Logo"> <a href="https://www.raylib.com/">Raylib</a>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
 <h2 id="contributors">Contributors</h2>
 
 <ol>
